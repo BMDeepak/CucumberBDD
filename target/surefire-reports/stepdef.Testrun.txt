@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: stepdef.Testrun
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.09 s <<< FAILURE! - in stepdef.Testrun
+Check Tags(Validation of OrangeHRM)  Time elapsed: 0.305 s  <<< FAILURE!
+java.lang.AssertionError
+
+(Validation of OrangeHRM)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError
+

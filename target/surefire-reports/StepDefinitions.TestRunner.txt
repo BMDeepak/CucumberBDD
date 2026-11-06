@@ -1,0 +1,99 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 12.814 s <<< FAILURE! - in StepDefinitions.TestRunner
+check login featuee(LoginFeature)  Time elapsed: 4.831 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+
+Check Tags(Validation of OrangeHRM)  Time elapsed: 0.094 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'should be in login page' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("should be in login page")
+public void should_be_in_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("credincials are passed")
+public void credincials_are_passed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("press login")
+public void press_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("should login to homepage")
+public void should_login_to_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Should be on Home page.")
+public void should_be_on_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Clicked on profile.")
+public void clicked_on_profile() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Logout should be shown.")
+public void logout_should_be_shown() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+(Validation of OrangeHRM)  Time elapsed: 0.034 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'should be in login page' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("should be in login page")
+public void should_be_in_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("credincials are passed")
+public void credincials_are_passed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("press login")
+public void press_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("should login to homepage")
+public void should_login_to_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("should be in Home")
+public void should_be_in_home() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("moved to dashboard")
+public void moved_to_dashboard() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Dashboard should be shown")
+public void dashboard_should_be_shown() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search data from google(EMPTY_NAME)  Time elapsed: 7.561 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.className: gLFyf
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: driver.version: RemoteWebDriver
+

@@ -1,0 +1,7 @@
+pages\login.class
+pages\logout.class
+StepDefinitions\TestRunner.class
+stepdef\stepDef.class
+StepDefinitions\SearchSteps.class
+stepdef\Testrun.class
+StepDefinitions\LoginDefinition.class
